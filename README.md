@@ -1,3 +1,56 @@
+# Homework 1 
+
+## Problem Two: github submission
+
+1.    Sign up for github and report your username to gradescope.  We will authorize you to receive the materials on github-classroom.
+2.    You will get a copy of the homework template (in github-classroom) that you control. 
+3.    Clone your repository to your laptop.  This is a command like `git clone 'https://github.com/DATA120/homework1-bobwang43'` You now control your copy of the classroom repository on github-classroom and another copy on your laptop.
+4.    Add a text file called "scavenger.txt" that contains your answers to the scavenger hunt to the repository directory.  Add this file to the repostitory and commit your changes.  This is a step something like `git add scavenger.txt` and `git commit -m "Added scavenger hunt answers, read 'em and weep."`  
+6.    Add a picture of a cat ("cat.jpg" or "cat.webp" might be good choices for file names here) to your repostiory and commit your changes on your laptop.
+7.    Add an executable python script that produces the output "Hello, world!" when executed.  (Not to be too creative, but "helloworld.py"?)
+8.    Update your github-classroom repository (that you control) with your changes.   This is a command like  `git clone 'https://github.com/DATA120/homework1-bobwang43'`
+9.  When you are finished, use "submit from github" button to share your gihtub-classroom repostiroy with gradescope.
+
+Don't stress out about following the rules, for this assignment we won't be scrutinizing your git history, just find out how to make it all happen.  What are we looking for?  Three files, one with answers, one with pointy ears, and one which invokes the python interpreter to do a very stereotypical thing in a programming class.  
+
+## Scavenger hunt items
+
+### Problem Zero: CS Accounts
+Sign up for a CS account at https://account-request.cs.uchicago.edu/account/requests. If you need
+help using SSH, please visit https://howto.cs.uchicago.edu/remote_access.
+
+### Problem One: Terminal Scavenger Hunt
+On your laptop, collect the following scraps of information. Be sure to document the command-
+s/steps that you’ve used for each problem.
+1. What is your unix username?
+2. What is the full path of your home directory?
+3. What is the full path of your Downloads directory?
+4. Download the DATA120 syllabus to your computer. Now, check how many files are in your
+Downloads directory using the command line. (Hint: adding "| wc -l" to the end of a
+command counts the number of lines in its output and otherwise ignores the contents)
+5. How much hard drive space is used by all the files in Downloads? (Hint: du )
+6. Save the DATA120 syllabus in a different, memorable location (consider creating a new di-
+rectory for all DATA120 materials). What does your prompt look like? Will it change if you
+change directories?
+7. What do you see if you run echo $PATH?
+8. Does your $PATH contain any directories in your user directory? Reminder: user directory
+and home directory are synonymous.
+9. Find the most recently modified or created file in your Downloads using the command line,
+and find its full path.
+10. The command "which python" returns the path of the system’s default python. Where is
+that?
+11. "ls -FG /" produces a directory listing of the root of the filesystem. Does anything look
+familiar?
+12. Use SSH to log in to the CS linux cluster linux.cs.uchicago.edu.
+13. Find the md5 hash of a local file not larger than 1Mb and that doesn’t have anything personal
+or sensitive in it. You should be able to use the syllabus as this file.
+14. Use SCP to copy the file to the CS server. Confirm that the local file on the CS server has
+the same md5 hash.
+15. Use ls -l to confirm that you have created a file on your account on the server. You can
+delete it if you like.
+
+Everything that follows is generic gihtub instructional content you may find helpful.
+
 # :wave: The Basics of GitHub 
 
 ## 🤓 Course overview and learning outcomes 
@@ -68,34 +121,6 @@ To learn more about your user profile and adding and updating your profile READM
 You might have noticed already, but you can add some fun styling to your issues, pull requests, and files. ["Markdown"](https://guides.github.com/features/mastering-markdown/) is an easy way to style your issues, pull requests, and files with some simple syntax. This can be helpful to organize your information and make it easier for others to read. You can also drop in gifs and images to help convey your point!
 To learn more about using GitHub’s flavor of markdown, read ["Basic Writing and Formatting Syntax"](https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax). 
 
-### Engaging with the GitHub community
-
-The GitHub community is vast. There are many types of people who use GitHub in their day to day—students like you, professional developers, hobbyists working on open source projects, and explorers who are just jumping into the world of software development on their own. There are many ways you can interact with the larger GitHub community, but here are three places where you can start. 
-
-#### Starring repositories 
-
-If you find a repository interesting or you want to keep track of it, star it! When you star a repository it’s also used as a signal to surface better recommendations on github.com/explore. If you’d like to get back to your starred repositories you can do so via your user profile. 
-To learn  more about starring repositories, read ["Saving Repositories with Stars"](https://docs.github.com/en/github/getting-started-with-github/saving-repositories-with-stars). 
-
-#### Following users 
-
-You can follow people on GitHub to receive notifications about their activity and discover projects in their communities. When you follow a user, their public GitHub activity will show up on your dashboard so you can see all the cool things they are working on. 
-To learn more about following users, read ["Following People"](https://docs.github.com/en/github/getting-started-with-github/following-people).
-
-#### Browsing GitHub Explore 
-
-GitHub Explore is a great place to do just that … explore :smile: You can find new projects, events, and developers to interact with.
-
-You can check out the GitHub Explore website [at github.com/explore](https://github.com/explore). The more you interact with GitHub the more tailored your Explore view will be. 
-
-## 📝 Optional next steps 
-
-* Open a pull request and let your teacher know that you’ve finished this course.  
-* Create a new markdown file in this repository. Let them know what you learned and what you are still confused about! Experiment with different styles!
-* Create your profile README. Let the world know a little bit more about you! What are you interested in learning? What are you working on? What's your favorite hobby? Learn more about creating your profile README in the document, ["Managing Your Profile README"](https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/managing-your-profile-readme).
-* Go to your user dashboard and create a new repository. Experiment with the features within that repository to familiarize yourself with them. 
-* [Let us know what you liked or didn’t like about the content of this course](https://support.github.com/contact/education). What would you like to see more of? What would be interesting or helpful to your learning journey? 
-
 ## 📚  Resources 
 * [A short video explaining what GitHub is](https://www.youtube.com/watch?v=w3jLJU7DT5E&feature=youtu.be) 
 * [Git and GitHub learning resources](https://docs.github.com/en/github/getting-started-with-github/git-and-github-learning-resources) 
@@ -105,3 +130,6 @@ You can check out the GitHub Explore website [at github.com/explore](https://git
 * [GitHub's Learning Lab](https://lab.github.com/)
 * [Education community forum](https://education.github.community/)
 * [GitHub community forum](https://github.community/)
+
+
+
