@@ -4,14 +4,15 @@
 
 1.    Sign up for github and report your username to gradescope.  We will authorize you to receive the materials on github-classroom.
 2.    You will get a copy of the homework template (in github-classroom) that you control. 
-3.    Clone your repository to your laptop.  This is a command like `git clone 'https://github.com/DATA120/homework1-bobwang43'` You now control your copy of the classroom repository on github-classroom and another copy on your laptop.
+3.    Clone your repository to your laptop.  This is a command like `git clone 'https://github.com/DATA120/HW1-WIN24-bobwang43'` You now control your copy of the classroom repository on github-classroom and another copy on your laptop.
 4.    Add a text file called "scavenger.txt" that contains your answers to the scavenger hunt to the repository directory.  Add this file to the repostitory and commit your changes.  This is a step something like `git add scavenger.txt` and `git commit -m "Added scavenger hunt answers, read 'em and weep."`  
 6.    Add a picture of a cat ("cat.jpg" or "cat.webp" might be good choices for file names here) to your repostiory and commit your changes on your laptop.
-7.    Add an executable python script that produces the output "Hello, world!" when executed.  (Not to be too creative, but "helloworld.py"?)
-8.    Update your github-classroom repository (that you control) with your changes.   This is a command like  `git clone 'https://github.com/DATA120/homework1-bobwang43'`
+7.    Add an executable python script that produces the output "Hello, world!" when executed in the autograder environment.  (Not to be too creative, but "helloworld.py"?)  (Ugh-oh, what if it works on your laptop but not in the autograder environment?  Fix it.)
+8.    Update your github-classroom repository (that you control) with your changes.   This is a command like  `git push origin main`
+
 9.  When you are finished, use "submit from github" button to share your gihtub-classroom repostiroy with gradescope.
 
-Don't stress out about following the rules, for this assignment we won't be scrutinizing your git history, just find out how to make it all happen.  What are we looking for?  Three files, one with answers, one with pointy ears, and one which invokes the python interpreter to do a very stereotypical thing in a programming class.  
+Don't stress out about following the rules, for this assignment we won't be scrutinizing your git history, just find out how to make it all happen.  Here we are using github as a means to distribute assignment materials and collect completed assignments.  What are we looking for?  Three files, one with answers, one with pointy ears, and one which invokes the python interpreter to do a very stereotypical thing in a programming class.  
 
 ## Scavenger hunt items
 
