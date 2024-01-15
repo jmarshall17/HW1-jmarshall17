@@ -1,0 +1,82 @@
+Problem 1: Terminal Scavenger Hunt
+
+1.	What is your unix username?
+% whomami
+jasonmarshall
+ 
+
+2.	What is the full path to your home directory?
+% echo $HOMe
+/Users/jasonmarshall
+
+ 
+
+3.	What is the full path to your Downloads directory?
+% echo %HOME/Downloads
+/Users/jasonmarshall/Downloads
+
+
+4.	Download the DATA120 syllabus and check how many files are in the Downloads directory.
+% ls -l %HOME/Downloads | ls -l | grep ^- | wc -l
+1026
+ 
+
+5.	How much hard drive space is used by all the files in Downloads?  I should probably 
+delete some things.
+% du -sh $HOME/Downloads
+28G
+
+6.	Save the DATA120 syllabus in a different location. What does the prompt look like? Will 
+it change when you change directories?
+
+% mv $HOME/Downloads/DATA-120-W24-syllabus.pdf $HOME/Desktop/
+
+The prompt should remain the same because both the original and the new location paths are specified relative to HOME not whatever directory you're in. 
+ 
+
+The prompt should remain the same because both the original and new location paths are specified 
+relative to HOME and not whatever directory I’m in. 
+
+7.	What do you see if you run echo $PATH?
+% echo $PATH
+A list of directories where the system looks for executable files
+
+8.	Does $PATH contain any directories in your user directory?
+It contains the Users/jasonmarshall path which was my user directory.
+
+9.	Find the most recently modified or created file in your downloads.
+% ls -lth $HOME/Downloads | grep -v '^d' | head -n 2
+
+
+10.	 The command in which python returns the path of the system’s default python. Where is that?
+% which python
+ 
+
+11.	 “ls -FG /” produces a directory listing of the root of the file system. Does anything look familiar? 
+
+I see the “Users/” directory and many other directories which also appeared as a result of the “echo $PATH” command.  
+
+
+12.	Use SSH to login to the CS linux cluster
+% ssh jmarshall17@uchicago@linux.cs.uchicago.edu
+
+
+13.	Find md5 hash of a local file
+% md5 Data-120-W24-Syllabus.pdf
+
+
+14.	Use SCP to copy the file to the CS server. Confirm that the local file on the CS server has the same hash.
+
+Copy
+% scp /Users/jasonmarshall/desktop/data120/Data-120-W24-Syllabus.pdf jmarshall17@linux.cs.uchicago.edu:~
+
+Confirm Hash
+jmarshall17@linux1:~$ md5sum Data-120-W24-Syllabus.pdf
+
+
+15.	Use ls -l to confirm that you have created a file on your account on the server.
+
+jmarshall17@linux1:~$ ls -l
+The syllabus is on my account on the server.
+
+
