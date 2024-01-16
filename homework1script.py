@@ -1,5 +1,5 @@
 """The following creates a graph using data from the books
- Professor Nussbaum has read and traxked using goodreads.com"""
+ Professor Nussbaum has read and tracked using goodreads.com"""
 import plotnine as p9
 import pandas as pd
 
